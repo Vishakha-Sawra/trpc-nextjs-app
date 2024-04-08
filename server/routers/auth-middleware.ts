@@ -1,6 +1,6 @@
 import { TRPCError } from '@trpc/server';
 import jwt from 'jsonwebtoken';
-import { prisma } from 'src/lib/prisma';
+import { prisma } from '../../lib/prisma';
 import { cookies } from 'next/headers';
 
 export const deserializeUser = async () => {

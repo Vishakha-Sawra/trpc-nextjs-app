@@ -1,5 +1,5 @@
-import authRouter from '@/server/auth-route';
-import { getUserHandler } from '@/server/user-controller';
+import authRouter from '@/server/routers/auth-route';
+import { getUserHandler } from '@/server/routers/user-controller';
 import { createContext } from '@/utils/trpc-context';
 import { protectedProcedure, t } from '@/utils/trpc-server';
 

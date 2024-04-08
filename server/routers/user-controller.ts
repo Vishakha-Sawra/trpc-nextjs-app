@@ -1,4 +1,4 @@
-import type { Context } from 'utils/trpc-context';
+import type { Context } from '@/utils/trpc-context';
 import { TRPCError } from '@trpc/server';
 
 export const getUserHandler = ({ ctx }: { ctx: Context }) => {

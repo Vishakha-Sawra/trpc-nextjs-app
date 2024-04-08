@@ -1,6 +1,6 @@
-import { CreateUserInput, LoginUserInput } from 'src/lib/user-schema'
+import { CreateUserInput, LoginUserInput } from '../../lib/user-schema';
 import bcrypt from 'bcryptjs';
-import { prisma } from 'src/lib/prisma';
+import { prisma } from '../../lib/prisma';
 import { TRPCError } from '@trpc/server';
 import jwt from 'jsonwebtoken';
 import { cookies } from 'next/headers';
